@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Register</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+	<img src="images/logo1.gif">
+	<ul>
+		<a href="register.html" class="login-register">Register</a>
+		<a href="login.html" class="login-register">Login</a>
+	</ul>
+	<div class="clear"></div>
+</header>
+<nav>
+	<div class="list"><a href="home.html">Home</a></div>
+	<div class="list products"><a href="">Products</a>
+		<div class="dropdown family"><a href="products.html">Family Car</a></div>
+		<div class="dropdown"><a href="">Commercial Car</a></div>
+		<div class="dropdown"><a href="">Luxury Car</a></div>
+	</div>
+	<div class="list"><a href="contact.html">Contacts</a></div>
+	<div class="clear"></div>
+</nav>
+<!-- Content -->
+<div class="register">
+	<h1>Register</h1>
+	<div class="form">
+	<form>
+		<h3><label for="name">Name</label></h3>
+		<input type="text" name="name" id="name" autocomplete="off">
+		<h3><label for="email">Email</label></h3>
+		<input type="text" name="email" id="email" autocomplete="off">	
+		<h3><label>Gender :</label></h3>	
+		<input type="radio" name="gender" id="male" class="gender" value="male">
+		<h3 class="gender"><label for="male">Male</label></h3>
+		<input type="radio" name="gender" id="female" class="gender" value="female">
+		<h3 class="gender"><label for="female">Female</label></h3>
+		<h3><label for="city">City</label></h3>
+		<select name="city" id="city">
+			<option value="">Jakarta</option>
+			<option value="Jakarta">Jakarta</option>
+			<option value="Bandung">Bandung</option>
+			<option value="Bogor">Bogor</option>
+		</select>
+		<h3><label for="address">Address</label></h3>
+		<textarea id="address" ></textarea>
+		<button class="button" id="button">Register</button>
+	</form>
+	</div>
+</div>
+<!-- Content Finish -->
+<!-- Footer -->
+<footer>
+	<div class="social-subscribe">
+		<div class="social-icon">
+			<img src="images/instagram.png">
+			<img src="images/youtube.png">
+			<img src="images/twitter.png">
+			<img src="images/facebook.png">
+		</div>
+		<div class="subscribe">
+			<h3>Subscribe to Our Newsletter</h3>
+			<form>
+				<input type="text" name="email" placeholder="         Your Email" autocomplete="off">
+				<br>
+				<button>Subscribe</button>
+			</form>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>&copy;Copyright 2020 by Mario Sandy</p>
+	</div>
+</footer>
+<!-- Footer Finish -->
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
